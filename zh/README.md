@@ -3,7 +3,8 @@
 中文文档|[English](../README.md)
 
 > 这是一个让Hexo博客能够使用codeopen的插件
-
+> [Hexo文档](https://hexo.io/zh-cn/docs/)
+> [CodeOpen](https://codepen.io/pen/)
 
 ## 使用方法
 

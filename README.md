@@ -4,6 +4,8 @@
 
 
 > This is a plug-in that allows `Hexo` blogs to use `codeopen`
+> [Hexo Docs](https://hexo.io/docs/)
+> [CodeOpen](https://codepen.io/pen/)
 
 
 ## Usage
