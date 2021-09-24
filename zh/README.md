@@ -23,10 +23,10 @@ codepen:
   style: {height: 600px, border-radius: 10px}
 ```
 
-Field        | Value         | Desc
+字段          | 值            | 描述
 -------------|---------------|-----------
-click_load   | boolean       | Use Click-to-Load (The result in Embedded Pens can either load right away, or be in a preview state where they need to be clicked to load, which can be good for performance.)
-editable     | boolean       | Make Code Editable (You can make the code in this Embedded Pen editable, meaning you can change code and see the results, just like in the Pen Editor here. Editable Embeds require more resources than non-editable Embeds.)
+click_load   | true/false    | Use Click-to-Load (The result in Embedded Pens can either load right away, or be in a preview state where they need to be clicked to load, which can be good for performance.)
+editable     | true/false    | Make Code Editable (You can make the code in this Embedded Pen editable, meaning you can change code and see the results, just like in the Pen Editor here. Editable Embeds require more resources than non-editable Embeds.)
 user         | xu-ux         | codeopen用户id
 theme        | light/dark    | 嵌入的容器主题（dark或者light）
 default_tabs | html,result   | 默认tab页面  （html,result,js）
@@ -40,7 +40,7 @@ style        | Object        | 自定义样式
 {% codepen slugHash user|anon tabs theme height width %}
 ```
 
-Field        | Value         | Desc
+字段          | 值            | 描述
 -------------|---------------|-----------
 slugHash     | XWgPqjN       | codeopen给的唯一值
 user         | xu-ux         | codeopen用户id
