@@ -1,0 +1,26 @@
+{
+  "name": "hexo-tag-codepen-x",
+  "version": "1.0.0",
+  "description": "Hexo tag to embed code snippet from codepen.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xu-ux/hexo-tag-codepen-x.git"
+  },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "tag",
+    "codepen",
+    "xu-ux"
+  ],
+  "author": "Xu-ux <xu_uxo@163.com> (https://xu-ux.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xu-ux/hexo-tag-codepen-x/issues"
+  },
+  "homepage": "https://github.com/xu-ux/hexo-tag-codepen-x#readme"
+}
