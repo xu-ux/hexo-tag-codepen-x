@@ -1,7 +1,7 @@
 'use strict';
 
 // {% codepen slugHash user|anon tabs theme height width %}
-
+const log = hexo.log;
 function codepenTagRender(args) {
     const [
         slugHash = args[0],
@@ -11,6 +11,11 @@ function codepenTagRender(args) {
         height = args[4] || (hexo.config.codepen.height || 300),
         width = args[5] || (hexo.config.codepen.width || "100%"),
     ] = args;
+
+    if ( !slugHash ) {
+        log.error("CodePen 'slugHash' should be provided! The current value is null !")
+        return new Error("CodePen slugHash should be provided!");
+    }
 
     // Use Click-to-Load
     let clickLoad = '';
