@@ -7,7 +7,7 @@ function codepenTagRender(args) {
         slugHash = args[0],
         user = args[1] || (hexo.config.codepen.user || "anon"),
         defaultTabs = args[2] || (hexo.config.codepen.default_tabs || "result,js"), // html,js,result
-        theme = args[3] || (hexo.config.codepen.theme || "dark"), // dark,light,default
+        theme = args[3] || (hexo.config.codepen.theme || "dark"), // dark,light
         height = args[4] || (hexo.config.codepen.height || 300),
         width = args[5] || (hexo.config.codepen.width || "100%"),
     ] = args;
@@ -37,7 +37,7 @@ function codepenTagRender(args) {
 
     let attrs = hexo.config.codepen.style;
 
-    // console.info("hexo-codeopen: global config ==>",JSON.stringify(attrs))
+    // log.info("hexo-codeopen: global config ==>",JSON.stringify(attrs))
     if (attrs) {
         styles =  Object.keys(attrs).map(s => s + ':' + attrs[s]).join(";");
     }
