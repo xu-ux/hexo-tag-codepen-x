@@ -9,6 +9,11 @@
 >
 > [CodeOpen](https://codepen.io/pen/)
 
+## Install
+
+```shell
+npm i hexo-tag-codepen-x
+```
 
 ## Usage
 

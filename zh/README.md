@@ -8,6 +8,12 @@
 >
 > [CodeOpen](https://codepen.io/pen/)
 
+## 安装
+
+```shell
+npm i hexo-tag-codepen-x
+```
+
 ## 使用方法
 
 ### ①全局配置
